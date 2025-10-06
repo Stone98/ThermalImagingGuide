@@ -1,5 +1,7 @@
 # Thermal Imaging Guide for Industrial Applications
 
+🌐 **[Live Demo](https://stone98.github.io/ThermalImagingGuide/)** - Try the interactive guide now!
+
 An educational website designed to teach the basics of thermal imaging technology in industrial settings. Perfect for newcomers to thermal imaging who want to understand the fundamentals, science, and value proposition.
 
 ## 🎯 Target Audience
