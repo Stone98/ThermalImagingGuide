@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermal Imaging Guide for Industrial Applications</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>🌡️ Thermal Imaging Guide</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#basics" class="nav-link">Basics</a></li>
+                    <li><a href="#science" class="nav-link">Science</a></li>
+                    <li><a href="#applications" class="nav-link">Applications</a></li>
+                    <li><a href="#benefits" class="nav-link">Benefits</a></li>
+                    <li><a href="#quiz" class="nav-link">Quiz</a></li>
+                    <li><a href="#citations" class="nav-link">Citations</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Master Thermal Imaging for Industrial Applications</h1>
+                <p class="hero-subtitle">Learn the fundamentals of thermal imaging technology and discover how it revolutionizes industrial maintenance, safety, and efficiency.</p>
+                <div class="hero-buttons">
+                    <a href="#basics" class="btn-primary">Start Learning</a>
+                    <a href="#quiz" class="btn-secondary">Take Quiz</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                
+                    <div class="thermal-image-placeholder">
+                        <div class="thermal-gradient"></div>
+                        <div class="temperature-scale">
+                            <div class="temp-label hot">Hot</div>
+                            <div class="scale-bar">
+                                <div class="scale-marker" style="background: #ff0000;"></div>
+                                <div class="scale-marker" style="background: #ff8800;"></div>
+                                <div class="scale-marker" style="background: #ffff00;"></div>
+                                <div class="scale-marker" style="background: #00ff00;"></div>
+                                <div class="scale-marker" style="background: #0088ff;"></div>
+                                <div class="scale-marker" style="background: #0000ff;"></div>
+                            </div>
+                            <div class="temp-label cold">Cold</div>
+                        </div>
+                    </div>
+                
+            </div>
+        </section>
+
+        <!-- What is Thermal Imaging Section -->
+        <section id="basics" class="section">
+            <div class="container">
+                <h2>What is Thermal Imaging?</h2>
+                <div class="content-grid">
+                    <div class="content-text">
+                        <p>Thermal imaging is a non-contact technology that detects infrared radiation (heat) emitted by objects and converts it into visible images called thermograms. Every object with a temperature above absolute zero (-273.15°C / -459.67°F) emits infrared radiation.</p>
+                        
+                        <h3>Key Concepts:</h3>
+                        <ul class="feature-list">
+                            <li><strong>Infrared Radiation:</strong> Invisible electromagnetic radiation with wavelengths longer than visible light</li>
+                            <li><strong>Thermography:</strong> The process of creating thermal images</li>
+                            <li><strong>Temperature Measurement:</strong> Non-contact temperature assessment across surfaces</li>
+                            <li><strong>Heat Patterns:</strong> Visual representation of temperature variations</li>
+                        </ul>
+                    </div>
+                    <div class="visual-example">
+                        <div class="comparison-box">
+                            <div class="image-compare">
+                                <div class="visible-light">
+                                    <h4>Visible Light Image</h4>
+                                    <div class="placeholder-image normal"><img src="visible_img.jpeg" alt="Visible Light Placeholder"></div>
+                                </div>
+                                <div class="thermal-image">
+                                    <h4>Thermal Image</h4>
+                                    <div class="placeholder-image thermal"><img src="infared_img.jpeg" alt="Thermal Image Placeholder"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Science Behind Thermal Imaging -->
+        <section id="science" class="section bg-light">
+            <div class="container">
+                <h2>The Science Behind Thermal Imaging</h2>
+                
+                <div class="science-content">
+                    <div class="science-principle">
+                        <h3>1. Electromagnetic Spectrum</h3>
+                        <p>Thermal cameras detect infrared radiation in the electromagnetic spectrum, typically in the range of 7-14 micrometers (long-wave infrared). This is invisible to the human eye but can be detected by specialized sensors.</p>
+                        <div class="spectrum-visual">
+                            <div class="spectrum-bar">
+                                <span class="spectrum-section visible">Visible Light</span>
+                                <span class="spectrum-section infrared">Infrared</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="science-principle">
+                        <h3>2. Stefan-Boltzmann Law</h3>
+                        <p>The amount of thermal radiation emitted by an object is proportional to the fourth power of its absolute temperature. This fundamental physics principle enables thermal cameras to measure temperature accurately.</p>
+                        <div class="formula">
+                            <p><strong>Power = σ × ε × A × T⁴</strong></p>
+                            <ul class="formula-legend">
+                                <li>σ = Stefan-Boltzmann constant (5.67 x 10⁻⁸)</li>
+                                <li>ε = Emissivity of the material</li>
+                                <li>A = Surface area</li>
+                                <li>T = Absolute temperature</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="practical-examples">
+                            <h4>🔥 Real-World Examples:</h4>
+                            <div class="example-grid">
+                                
+                                <div class="example-card">
+                                    <div class="example-icon">⚡</div>
+                                    <h5>Electrical Hot Spot</h5>
+                                    <p>A loose electrical connection at 80°C (176°F) vs normal operation at 40°C (104°F) radiates about <strong>1.4 times more heat</strong> - enough for a thermal camera to easily detect the problem.</p>
+                                </div>
+                                
+                                <div class="example-card">
+                                    <div class="example-icon">🏠</div>
+                                    <h5>Your Body Heat</h5>
+                                    <p>Your body (37°C / 98.6°F) vs room temperature (20°C / 68°F) - this small 17-degree difference means you radiate about <strong>25% more heat energy</strong> than your surroundings, which is why thermal cameras can easily see people.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="key-insight">
+                                <h5>💡 Key Insight for Industrial Applications:</h5>
+                                <p>Small temperature increases create disproportionately large increases in thermal radiation. This means thermal cameras are incredibly sensitive to even minor equipment problems - a bearing that's just 20°C (36°F) hotter than normal will "glow" brightly in a thermal image, making problems easy to spot before they become failures.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="science-principle">
+                        <h3>3. How Thermal Cameras Work</h3>
+                        <div class="process-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <h4>Detection</h4>
+                                <p>Infrared detector array captures thermal radiation from the scene</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <h4>Conversion</h4>
+                                <p>Electrical signals are generated proportional to the infrared energy</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <h4>Processing</h4>
+                                <p>Signals are processed and converted to temperature values</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <h4>Display</h4>
+                                <p>Temperature data is displayed as a color-coded thermal image</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="science-principle">
+                        <h3>4. Emissivity</h3>
+                        <p>Emissivity is a material property that describes how efficiently an object emits thermal radiation. Understanding emissivity is crucial for accurate temperature measurements.</p>
+                        <div class="emissivity-examples">
+                            <div class="material-card">
+                                <h5>High Emissivity (0.8-0.95)</h5>
+                                <ul>
+                                    <li>Painted surfaces</li>
+                                    <li>Oxidized metals</li>
+                                    <li>Human skin</li>
+                                    <li>Concrete</li>
+                                </ul>
+                            </div>
+                            <div class="material-card">
+                                <h5>Low Emissivity (0.1-0.3)</h5>
+                                <ul>
+                                    <li>Polished metals</li>
+                                    <li>Shiny surfaces</li>
+                                    <li>Aluminum foil</li>
+                                    <li>Chrome plating</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="key-insight">
+                            <h5>💡 Key Insight for Industrial Applications:</h5>
+                            <p>Emissivity can make or break your thermal measurements! A shiny stainless steel pipe might read 50°C (122°F) when it's actually 150°C (302°F). For accurate readings on reflective surfaces, either apply high-emissivity tape/paint to a small area, or use the camera's emissivity compensation feature.</p>
+                        </div>
+                    </div>
+
+                    <div class="science-principle">
+                        <h3>5. Distance and the Inverse Square Law</h3>
+                        <p>The intensity of thermal radiation decreases with the square of the distance from the source. This fundamental principle affects both measurement accuracy and safety when using thermal cameras in industrial settings.</p>
+                        
+                        <div class="formula">
+                            <p><strong>Intensity = Power / (4π × Distance²)</strong></p>
+                            <ul class="formula-legend">
+                                <li>Intensity = Thermal radiation received by camera</li>
+                                <li>Power = Total thermal energy emitted by object</li>
+                                <li>Distance = Distance between object and camera</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="distance-examples">
+                            <h4>📏 Practical Distance Effects:</h4>
+                            <div class="distance-grid">
+                                <div class="distance-card">
+                                    <div class="distance-icon">🎯</div>
+                                    <h5>Measurement Accuracy</h5>
+                                    <p>A thermal camera 1 meter from a hot bearing reads 80°C (176°F). Move to 2 meters away, and atmospheric absorption plus reduced signal may cause readings to drop to 75°C (167°F) - potentially missing critical temperature thresholds.</p>
+                                </div>
+                                
+                                <div class="distance-card">
+                                    <div class="distance-icon">🔍</div>
+                                    <h5>Spot Size Resolution</h5>
+                                    <p>At 1 meter, your camera might resolve a 2cm spot. At 10 meters, that same camera can only resolve a 20cm area - you might miss small hot spots on electrical connections or bearing housings.</p>
+                                </div>
+                                
+                                <div class="distance-card">
+                                    <div class="distance-icon">🌫️</div>
+                                    <h5>Atmospheric Interference</h5>
+                                    <p>Water vapor, dust, and gases absorb infrared radiation. A furnace measured at 1000°C (1832°F) from 5 meters might read 950°C (1742°F) from 50 meters due to atmospheric absorption.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="key-insight">
+                            <h5>💡 Key Insight for Industrial Applications:</h5>
+                            <p>For mechanical equipment, get as close as safety allows - that extra meter of distance could mean the difference between detecting a failing bearing at 75°C (167°F) versus missing it entirely. When possible, establish standard inspection distances for each equipment type to ensure consistent, comparable results over time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industrial Applications -->
+        <section id="applications" class="section">
+            <div class="container">
+                <h2>Industrial Applications</h2>
+                <div class="applications-grid">
+                    <div class="application-card">
+                        <div class="app-icon">⚡</div>
+                        <h3>Electrical Inspections</h3>
+                        <p>Detect loose connections, overloaded circuits, and failing components before they cause failures or fires.</p>
+                        <ul>
+                            <li>Electrical panels and switchgear</li>
+                            <li>Power transmission lines</li>
+                            <li>Motor control centers</li>
+                            <li>Transformer inspections</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="application-card">
+                        <div class="app-icon">⚙️</div>
+                        <h3>Mechanical Systems</h3>
+                        <p>Monitor bearing temperatures, belt alignment, and mechanical wear in rotating equipment.</p>
+                        <ul>
+                            <li>Bearing monitoring</li>
+                            <li>Motor inspections</li>
+                            <li>Pump assessments</li>
+                            <li>Conveyor systems</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="application-card">
+                        <div class="app-icon">🏗️</div>
+                        <h3>Building Diagnostics</h3>
+                        <p>Identify energy losses, moisture intrusion, and structural issues in industrial facilities.</p>
+                        <ul>
+                            <li>Insulation defects</li>
+                            <li>Air leakage detection</li>
+                            <li>Roof moisture surveys</li>
+                            <li>HVAC system efficiency</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="application-card">
+                        <div class="app-icon">🔥</div>
+                        <h3>Process Monitoring</h3>
+                        <p>Monitor industrial processes, furnaces, and high-temperature equipment for optimal performance.</p>
+                        <ul>
+                            <li>Furnace refractory inspection</li>
+                            <li>Heat exchanger monitoring</li>
+                            <li>Kiln assessments</li>
+                            <li>Pipeline monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits and Value Proposition -->
+        <section id="benefits" class="section bg-light">
+            <div class="container">
+                <h2>Value Proposition: Why Use Thermal Imaging?</h2>
+                <div class="benefits-content">
+                    <div class="benefit-category">
+                        <h3>💰 Cost Savings</h3>
+                        <ul>
+                            <li><strong>Preventive Maintenance:</strong> Identify problems before expensive failures occur</li>
+                            <li><strong>Reduced Downtime:</strong> Schedule maintenance during planned outages</li>
+                            <li><strong>Energy Efficiency:</strong> Locate energy losses and improve efficiency</li>
+                            <li><strong>Extended Equipment Life:</strong> Address issues early to maximize asset lifespan</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="benefit-category">
+                        <h3>🛡️ Safety Improvements</h3>
+                        <ul>
+                            <li><strong>Non-Contact Inspection:</strong> Inspect energized equipment safely</li>
+                            <li><strong>Fire Prevention:</strong> Detect hot spots before they become fires</li>
+                            <li><strong>Arc Flash Risk Reduction:</strong> Identify electrical issues without opening panels</li>
+                            <li><strong>Worker Safety:</strong> Inspect dangerous or hard-to-reach areas remotely</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="benefit-category">
+                        <h3>📊 Operational Excellence</h3>
+                        <ul>
+                            <li><strong>Data-Driven Decisions:</strong> Make maintenance decisions based on actual conditions</li>
+                            <li><strong>Trending Analysis:</strong> Track equipment health over time</li>
+                            <li><strong>Quality Assurance:</strong> Verify proper installation and operation</li>
+                            <li><strong>Compliance:</strong> Meet regulatory requirements for equipment monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="roi-section">
+                    <h3>Return on Investment (ROI)</h3>
+                    <div class="roi-benefits">
+                        <div class="roi-benefit">
+                            <div class="benefit-icon">💰</div>
+                            <div class="benefit-content">
+                                <h4>Positive ROI Potential</h4>
+                                <p>Well-implemented thermal imaging programs typically generate positive returns through prevented failures and optimized maintenance scheduling.</p>
+                            </div>
+                        </div>
+                        <div class="roi-benefit">
+                            <div class="benefit-icon">🔍</div>
+                            <div class="benefit-content">
+                                <h4>Early Problem Detection</h4>
+                                <p>Identifies developing issues before they become costly failures, allowing for planned maintenance during scheduled downtime.</p>
+                            </div>
+                        </div>
+                        <div class="roi-benefit">
+                            <div class="benefit-icon">📈</div>
+                            <div class="benefit-content">
+                                <h4>Measurable Improvements</h4>
+                                <p>Provides quantifiable data for maintenance decisions and helps track equipment health trends over time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roi-note">
+                        <p><strong>Note:</strong> Actual ROI varies significantly based on facility size, equipment criticality, current maintenance practices, and program implementation quality. Consult with thermal imaging professionals to develop realistic projections for your specific application.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Quiz -->
+        <section id="quiz" class="section">
+            <div class="container">
+                <h2>Test Your Knowledge</h2>
+                <div id="quiz-container">
+                    <div id="quiz-start" class="quiz-screen">
+                        <h3>Thermal Imaging Knowledge Quiz</h3>
+                        <p>Test your understanding of thermal imaging concepts, science, and applications.</p>
+                        <button id="start-quiz-btn" class="btn-primary">Start Quiz</button>
+                    </div>
+                    
+                    <div id="quiz-questions" class="quiz-screen" style="display: none;">
+                        <div class="quiz-progress">
+                            <div id="progress-bar" class="progress-bar">
+                                <div id="progress-fill" class="progress-fill"></div>
+                            </div>
+                            <span id="question-counter">Question 1 of 10</span>
+                        </div>
+                        
+                        <div id="question-container">
+                            <h3 id="question-text"></h3>
+                            <div id="answer-options" class="answer-options"></div>
+                        </div>
+                        
+                        <div class="quiz-controls">
+                            <button id="next-question-btn" class="btn-primary" style="display: none;">Next Question</button>
+                        </div>
+                    </div>
+                    
+                    <div id="quiz-results" class="quiz-screen" style="display: none;">
+                        <h3>Quiz Complete!</h3>
+                        <div id="score-display" class="score-display"></div>
+                        <div id="results-feedback" class="results-feedback"></div>
+                        <button id="restart-quiz-btn" class="btn-primary">Take Quiz Again</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Citations Section -->
+        <section id="citations" class="section bg-light">
+            <div class="container">
+                <h2>References and Citations</h2>
+                <div class="citations-content">
+                    <div class="citation-notice">
+                        <p><strong>Educational Disclaimer:</strong> This guide presents general principles and concepts of thermal imaging for educational purposes. No specific ROI claims are made, as actual results vary significantly based on implementation, industry, and facility conditions. For authoritative information, current research, and specific ROI projections, please consult the professional resources listed below and work with certified thermal imaging professionals.</p>
+                    </div>
+                    
+                    <div class="citations-grid">
+                        <div class="citation-category">
+                            <h3>� Professional Organizations & Standards</h3>
+                            <div class="citation-item">
+                                <h4>ASNT (American Society for Nondestructive Testing)</h4>
+                                <p><strong>Website:</strong> <a href="https://www.asnt.org" target="_blank" rel="noopener">https://www.asnt.org</a></p>
+                                <p><strong>Resources:</strong> Professional certification, training materials, and standards for thermal imaging and infrared thermography.</p>
+                            </div>
+                            
+                            <div class="citation-item">
+                                <h4>ASTM International</h4>
+                                <p><strong>Website:</strong> <a href="https://www.astm.org" target="_blank" rel="noopener">https://www.astm.org</a></p>
+                                <p><strong>Relevant Standards:</strong> 
+                                   <br>• ASTM E1933 - Standard Guide for Measuring and Compensating for Emissivity
+                                   <br>• ASTM E1862 - Standard Test Methods for Measuring and Compensating for Reflected Temperature</p>
+                            </div>
+                            
+                            <div class="citation-item">
+                                <h4>ISO (International Organization for Standardization)</h4>
+                                <p><strong>Website:</strong> <a href="https://www.iso.org" target="_blank" rel="noopener">https://www.iso.org</a></p>
+                                <p><strong>Relevant Standards:</strong> ISO 18434-1 - Condition monitoring and diagnostics of machines</p>
+                            </div>
+                            
+                            <div class="citation-item">
+                                <h4>NETA (InterNational Electrical Testing Association)</h4>
+                                <p><strong>Website:</strong> <a href="https://www.netaworld.org" target="_blank" rel="noopener">https://www.netaworld.org</a></p>
+                                <p><strong>Resources:</strong> Electrical maintenance and testing standards, including thermal imaging applications for electrical systems.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="citation-category">
+                            <h3>🔬 Scientific & Technical Resources</h3>
+                            <div class="citation-item">
+                                <h4>NIST (National Institute of Standards and Technology)</h4>
+                                <p><strong>Website:</strong> <a href="https://www.nist.gov" target="_blank" rel="noopener">https://www.nist.gov</a></p>
+                                <p><strong>Resources:</strong> Temperature measurement standards, infrared thermometry guidelines, and calibration procedures.</p>
+                            </div>
+                            
+                            <div class="citation-item">
+                                <h4>IEEE (Institute of Electrical and Electronics Engineers)</h4>
+                                <p><strong>Website:</strong> <a href="https://www.ieee.org" target="_blank" rel="noopener">https://www.ieee.org</a></p>
+                                <p><strong>Resources:</strong> Technical papers and standards related to infrared technology and electrical applications.</p>
+                            </div>
+                            
+                            <div class="citation-item">
+                                <h4>Stefan-Boltzmann Law - Physics References</h4>
+                                <p><strong>Physics Education Resources:</strong>
+                                   <br>• <a href="https://www.hyperphysics.phy-astr.gsu.edu/hbase/thermo/stefan.html" target="_blank" rel="noopener">HyperPhysics - Georgia State University</a>
+                                   <br>• <a href="https://www.khanacademy.org" target="_blank" rel="noopener">Khan Academy - Thermodynamics</a></p>
+                                <p><strong>Formula:</strong> P = σεAT⁴ (Fundamental physics principle for thermal radiation)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="citation-category">
+                            <h3>� Educational & Industry Resources</h3>
+                            <div class="citation-item">
+                                <h4>Infrared Training Center (ITC)</h4>
+                                <p><strong>Website:</strong> <a href="https://www.infraredtraining.com" target="_blank" rel="noopener">https://www.infraredtraining.com</a></p>
+                                <p><strong>Resources:</strong> Professional thermal imaging training, certification programs, and technical resources.</p>
+                            </div>
+                            
+                            <div class="citation-item">
+                                <h4>Predictive Maintenance Resources</h4>
+                                <p><strong>Websites:</strong>
+                                   <br>• <a href="https://www.reliableplant.com" target="_blank" rel="noopener">Reliable Plant Magazine</a>
+                                   <br>• <a href="https://www.maintenanceworld.com" target="_blank" rel="noopener">Maintenance World</a>
+                                   <br>• <a href="https://www.plant-maintenance.com" target="_blank" rel="noopener">Plant Maintenance Resource Center</a></p>
+                                <p><strong>Content:</strong> Industry articles, case studies, and best practices for thermal imaging in maintenance applications.</p>
+                            </div>
+                            
+                            <div class="citation-item">
+                                <h4>Thermal Imaging Equipment Manufacturers</h4>
+                                <p><strong>Technical Resources:</strong>
+                                   <br>• <a href="https://www.flir.com/discover/professional-tools/thermal-imaging-for-predictive-maintenance/" target="_blank" rel="noopener">FLIR Systems - Predictive Maintenance</a>
+                                   <br>• <a href="https://www.fluke.com/en-us/products/thermal-cameras" target="_blank" rel="noopener">Fluke Corporation - Thermal Cameras</a>
+                                   <br>• <a href="https://www.testo.com/en-US/thermal-imager" target="_blank" rel="noopener">Testo - Thermal Imaging</a></p>
+                                <p><strong>Content:</strong> Application guides, technical specifications, and case studies from leading thermal imaging equipment manufacturers.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="citation-category">
+                            <h3>� Research & Case Studies</h3>
+                            <div class="citation-item">
+                                <h4>Academic Research Databases</h4>
+                                <p><strong>Resources:</strong>
+                                   <br>• <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a> - Search "thermal imaging predictive maintenance ROI"
+                                   <br>• <a href="https://www.researchgate.net" target="_blank" rel="noopener">ResearchGate</a> - Academic papers on thermal imaging applications
+                                   <br>• <a href="https://ieeexplore.ieee.org" target="_blank" rel="noopener">IEEE Xplore</a> - Technical papers on infrared thermography</p>
+                            </div>
+                            
+                            <div class="citation-item">
+                                <h4>Industry Reports & Whitepapers</h4>
+                                <p><strong>Note:</strong> Specific ROI figures vary widely based on industry, application, and implementation quality. For current market research and ROI studies, consult:</p>
+                                <p>• Industry analyst reports (Frost & Sullivan, MarketsandMarkets)
+                                   <br>• Equipment manufacturer case studies and whitepapers
+                                   <br>• Professional maintenance association publications</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="important-note">
+                        <h3>⚠️ Important Notes for Implementation</h3>
+                        <ul>
+                            <li><strong>Training Required:</strong> Effective thermal imaging requires proper training in equipment operation, image interpretation, and safety procedures.</li>
+                            <li><strong>Environmental Factors:</strong> Results can be affected by ambient temperature, humidity, wind, and reflected radiation sources.</li>
+                            <li><strong>Equipment Limitations:</strong> Camera resolution, sensitivity, and calibration affect measurement accuracy and detection capabilities.</li>
+                            <li><strong>Cost Considerations:</strong> Initial equipment costs, training expenses, and ongoing calibration requirements should be factored into ROI calculations.</li>
+                            <li><strong>Professional Consultation:</strong> For critical applications, consult with certified thermographers and equipment manufacturers for specific recommendations.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="educational-disclaimer">
+                        <h3>📖 Educational Purpose</h3>
+                        <p>This website is designed for educational purposes to introduce the fundamental concepts of thermal imaging in industrial applications. The information provided represents general principles and typical industry practices. For specific applications, always consult with qualified professionals, refer to equipment manufacturer specifications, and follow applicable safety standards and regulations.</p>
+                        
+                        <p>
+                        <strong>Target Audience:</strong> Industrial professionals new to thermal imaging technology</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Thermal Imaging Guide. Educational content for industrial thermal imaging applications.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
